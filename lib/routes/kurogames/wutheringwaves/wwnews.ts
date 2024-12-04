@@ -19,9 +19,9 @@ interface NewsItem {
 }
 
 export const route: Route = {
-    path: '/wutheringwaves/news',
+    path: '/wutheringwaves/wwnews',
     categories: ['game'],
-    example: '/kurogames/wutheringwaves/news',
+    example: '/kurogames/wutheringwaves/wwnews',
     name: 'Wuthering Waves— Notice, News and Event',
     radar: [
         {
