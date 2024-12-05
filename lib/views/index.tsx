@@ -31,11 +31,7 @@ const Index: FC<{ debugQuery: string | undefined }> = ({ debugQuery }) => {
                 ? [
                       {
                           name: 'Git Hash',
-                          value: (
-                              <a className="underline" href={`https://github.com/DIYgod/RSSHub/commit/${gitHash}`}>
-                                  {gitHash}
-                              </a>
-                          ),
+                          value: <a className="underline">{gitHash}</a>,
                       },
                   ]
                 : []),
@@ -142,14 +138,7 @@ const Index: FC<{ debugQuery: string | undefined }> = ({ debugQuery }) => {
                 </h1>
                 <p className="text-xl font-medium text-zinc-600">The world's largest RSS Network.</p>
                 <p className="text-zinc-500">If you see this page, the RSSHub is successfully installed and working.</p>
-                <div className="font-bold space-x-4 text-sm">
-                    <a target="_blank" href="https://docs.rsshub.app">
-                        <button className="text-white bg-[#F5712C] hover:bg-[#DD4A15] py-2 px-4 rounded-full transition-colors">Home</button>
-                    </a>
-                    <a target="_blank" href="https://github.com/DIYgod/RSSHub">
-                        <button className="bg-zinc-200 hover:bg-zinc-300 py-2 px-4 rounded-full transition-colors">GitHub</button>
-                    </a>
-                </div>
+                <div className="font-bold space-x-4 text-sm"></div>
                 {info.showDebug ? (
                     <details className="text-xs w-96 !mt-8 max-h-[400px] overflow-auto">
                         <summary className="text-sm cursor-pointer">Debug Info</summary>
@@ -161,41 +150,6 @@ const Index: FC<{ debugQuery: string | undefined }> = ({ debugQuery }) => {
                         ))}
                     </details>
                 ) : null}
-            </div>
-
-            <div className="text-center pt-4 pb-8 w-full text-sm font-medium space-y-2">
-                <p className="space-x-4">
-                    <a target="_blank" href="https://github.com/DIYgod/RSSHub">
-                        <img className="inline" src="https://icons.ly/github/_/fff" alt="github" width="20" height="20" />
-                    </a>
-                    <a target="_blank" href="https://t.me/rsshub">
-                        <img className="inline" src="https://icons.ly/telegram" alt="telegram group" width="20" height="20" />
-                    </a>
-                    <a target="_blank" href="https://t.me/awesomeRSSHub">
-                        <img className="inline" src="https://icons.ly/telegram" alt="telegram channel" width="20" height="20" />
-                    </a>
-                    <a target="_blank" href="https://x.com/intent/follow?screen_name=_RSSHub" className="text-[#F5712C]">
-                        <img className="inline" src="https://icons.ly/x" alt="X" width="20" height="20" />
-                    </a>
-                </p>
-                <p className="!mt-6">
-                    Please consider{' '}
-                    <a target="_blank" href="https://docs.rsshub.app/sponsor" className="text-[#F5712C]">
-                        sponsoring
-                    </a>{' '}
-                    to help keep this open source project alive.
-                </p>
-                <p>
-                    Made with ❤️ by{' '}
-                    <a target="_blank" href="https://diygod.cc" className="text-[#F5712C]">
-                        DIYgod
-                    </a>{' '}
-                    and{' '}
-                    <a target="_blank" href="https://github.com/DIYgod/RSSHub/graphs/contributors" className="text-[#F5712C]">
-                        Contributors
-                    </a>{' '}
-                    under MIT License.
-                </p>
             </div>
         </Layout>
     );
