@@ -437,6 +437,9 @@
   "/amazon/kindle/software-updates": [
     "EthanWng97"
   ],
+  "/amz123/kx": [
+    "defp"
+  ],
   "/android/platform-tools-releases": [
     "nczitzk"
   ],
@@ -919,7 +922,8 @@
     "fashioncj"
   ],
   "/bloomberg/authors/:id/:slug/:source?": [
-    "josh"
+    "josh",
+    "pseudoyu"
   ],
   "/bloomberg/:site?": [
     "bigfei"
@@ -3139,7 +3143,8 @@
     "keocheung"
   ],
   "/hbr/topic/:topic?/:type?": [
-    "nczitzk"
+    "nczitzk",
+    "pseudoyu"
   ],
   "/hdu/cs": [
     "legr4ndk"
@@ -3846,6 +3851,10 @@
   "/joins/chinese/:category?": [
     "nczitzk"
   ],
+  "/joneslanglasalle/:language?/:category{.+}?": [
+    "nczitzk",
+    "pseudoyu"
+  ],
   "/jornada/:date?/:category?": [
     "Thealf154"
   ],
@@ -3997,6 +4006,9 @@
   ],
   "/kurogames/wutheringwaves/news": [
     "enpitsulin"
+  ],
+  "/kurogames/wutheringwaves/wwnews": [
+    "xkabctt"
   ],
   "/kuwaitlocal/:category?": [
     "TonyRL"
@@ -4198,11 +4210,16 @@
     "prnake"
   ],
   "/luogu/daily/:id?": [
-    "LogicJake ",
-    "prnake ",
+    "LogicJake",
+    "prnake",
     "nczitzk"
   ],
-  "/luogu/user/blog/:name": [],
+  "/luogu/user/article/:uid": [
+    "TonyRL"
+  ],
+  "/luogu/user/blog/:name": [
+    "ftiasch"
+  ],
   "/luogu/user/feed/:uid": [
     "solstice23"
   ],
@@ -6247,7 +6264,8 @@
     "outloudvi"
   ],
   "/spotify/show/:id": [
-    "caiohsramos"
+    "caiohsramos",
+    "pseudoyu"
   ],
   "/spotify/top/tracks": [
     "outloudvi"
@@ -6625,7 +6643,8 @@
     "nczitzk"
   ],
   "/theatlantic/:category": [
-    "EthanWng97"
+    "EthanWng97",
+    "pseudoyu"
   ],
   "/theblockbeats/:channel?/:original?": [
     "Fatpandac",
@@ -6901,7 +6920,8 @@
     "DIYgod",
     "yindaheng98",
     "Rongronggg9",
-    "CaoMeiYouRen"
+    "CaoMeiYouRen",
+    "pseudoyu"
   ],
   "/twreporter/category/:category": [
     "emdoe"
@@ -7000,6 +7020,9 @@
     "Fatpandac"
   ],
   "/ulapia/research/latest": [],
+  "/uniqlo/na/:country/:category": [
+    "xkabctt"
+  ],
   "/uniqlo/new/:country/:category": [
     "DIYgod"
   ],
@@ -7662,6 +7685,9 @@
   ],
   "/ymgal/game/release": [
     "SunBK201"
+  ],
+  "/yna/:lang?/:channel?": [
+    "quiniapiezoelectricity"
   ],
   "/yoasobi-music/info/:category?": [],
   "/yoasobi-music/live": [
