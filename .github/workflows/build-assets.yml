@@ -49,7 +49,7 @@ jobs:
         uses: actions/checkout@v4
         if: steps.check-env.outputs.defined == 'true'
         with:
-          repository: 'RSSNext/rsshub-docs'
+          repository: 'ahtungko/rsshub-docs'
           token: ${{ secrets.DOCS_API_TOKEN }}
           path: rsshub-docs
       - name: Update docs
@@ -66,4 +66,4 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git status
-          git diff-index --quiet HEAD || (git commit -m "chore: auto build https://github.com/$GITHUB_REPOSITORY/commit/$GITHUB_SHA" -a --no-verify && git push "https://${GITHUB_ACTOR}:${{ secrets.DOCS_API_TOKEN }}@github.com/RSSNext/rsshub-docs.git" HEAD:main)
+          git diff-index --quiet HEAD || (git commit -m "chore: auto build https://github.com/$GITHUB_REPOSITORY/commit/$GITHUB_SHA" -a --no-verify && git push "https://${GITHUB_ACTOR}:${{ secrets.DOCS_API_TOKEN }}@github.com/ahtungko/rsshub-docs.git" HEAD:main)
